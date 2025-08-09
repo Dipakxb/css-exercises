@@ -1,17 +1,17 @@
 .container {
   display: flex;
-}
-
-.flex {
   justify-content: center;
+  flex: auto;
+  gap: 52px
 }
 
 .image {
-  flex-direction: column;
+  max-width: 200px;
 }
 
 body {
   font-family: 'Courier New', Courier, monospace;
+  text-align: center;
 }
 
 img {
@@ -22,7 +22,7 @@ img {
 .title {
   font-size: 36px;
   font-weight: 900;
-  text-align: center;
+  margin-bottom: 32px;
 }
 
 /* do not edit this footer */
